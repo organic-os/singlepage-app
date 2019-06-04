@@ -1,51 +1,26 @@
 {
-    "title": "iPerf SPA",
-    "name": "iPerf Single Page Application",
-    "version": "5.1.6",
-    "scripts": {
-        "start": "gulp watch"
-    },
-    "description": "Single Page App made with a Start Bootstrap free theme.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://iperf.com.br",
-    "bugs": {
-        "url": "https://github.com/iperf/singlepage-app",
-        "email": "contato@iperf.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/iperf/singlepage-app"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.8.2",
-        "bootstrap": "4.3.1",
-        "jquery": "3.4.1",
-        "jquery.easing": "^1.4.1",
-        "magnific-popup": "^1.1.0"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.5",
-        "del": "4.1.1",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "6.1.0",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.7",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
-    }
+  "name": "iperf-spa",
+  "version": "0.0.2",
+  "description": "Website de página única. Frontend feito com um tema gratuito de bootstrap e backend em node JS.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iperf/singlepage-app.git"
+  },
+  "keywords": [
+    "node",
+    "iperf"
+  ],
+  "author": "Gustavo Ilha Morais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iperf/singlepage-app/issues"
+  },
+  "homepage": "https://github.com/iperf/singlepage-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
