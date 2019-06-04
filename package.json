@@ -1,11 +1,11 @@
 {
-    "title": "Creative",
-    "name": "startbootstrap-creative",
+    "title": "iPerf SPA",
+    "name": "iPerf Single Page Application",
     "version": "5.1.6",
     "scripts": {
         "start": "gulp watch"
     },
-    "description": "Creative is a stylish one page HTML theme for Bootstrap.",
+    "description": "Single Page App made with a Start Bootstrap free theme.",
     "keywords": [
         "css",
         "sass",
@@ -14,10 +14,10 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/creative",
+    "homepage": "https://iperf.com.br",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/iperf/singlepage-app",
+        "email": "contato@iperf.com"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
@@ -26,7 +26,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
+        "url": "https://github.com/iperf/singlepage-app"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.8.2",
